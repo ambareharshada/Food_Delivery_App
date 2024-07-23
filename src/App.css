@@ -1,0 +1,220 @@
+
+/* bootstrap css extra start */
+.card-title-css{
+  font-size: 25px;
+  margin-top: 3rem !important;
+  padding-right: 7rem;
+}
+/*  bootstrap css extra  end */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+/* Start */
+.nav-logo{
+  /* background: url(../public/imgs/food-delivery-logo.webp) no-repeat center center;
+  height: 10vmin;
+  width: 100px; */
+
+  background: url(../public/imgs/food-court.jpg) no-repeat; 
+  /* background: url(../src/assets/burger.jpeg); */
+  width: 100px; 
+  height: 100px; 
+  display: block; 
+  text-indent: -9999px;
+}
+body{
+  /* background-image: url(../public/imgs/Food-delivery-background-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh; */
+
+  background: url(../public/imgs/Food-delivery-background-img.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+/* nav css start */
+.container { 
+  display: flex;
+  }
+.red {
+  /* background: orangered; */
+  flex-grow: 1;
+}
+
+.blue {
+  /* background: steelblue; */
+  width: 10vw;
+}
+.container > div {
+  /* font-size: 2vw;
+  padding: .1em; */
+  color: white;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 12px;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+.cart-button{
+  margin: 15px;
+  color: white;
+  font-size: 1.5em;
+  top: 15px;
+  /* background-color: rgb(235, 15, 15); */
+  /* border-radius: 50px; */
+  border: none;
+  /* box-shadow: 2px 2px 3px ; */
+}
+/* nav css end */
+
+
+/* .wrapper{
+  display: flex;
+}
+.wrapper-left{
+  flex-grow: 1;
+  order: 1;
+  font-size: 2rem;
+  color: white;
+  margin-top: 100px;
+}
+.wrapper-right{
+  order: 2;
+  font-size: 25px;
+  color: white;
+  width: 50vw;
+}
+.head-2{
+  color: rgb(227, 220, 235);
+  font-size: x-large;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+/* main section css start */
+.h3-heading{
+  margin: 0;
+  width: 76%;
+  font-size: xxx-large;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.para{
+  font-size: 16px;
+    width: 67%;
+    padding: 2px 11px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.btn-order {
+  background-color:orange !important;
+  padding: 20px 29px;
+  border-radius: 20px;
+  float: left;
+  width: 190px;
+  /* box-shadow: 1px 3px 2px #ece38c; */
+  border: 1px solid orange !important;
+  color: white;
+  font-weight: 700;
+  margin: 30px 150px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 300;
+  font-size: 17px;
+  font-style: normal;
+}
+.btn-order a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  font-style: normal;
+}
+/* main section css end */
+.like {
+  font-size: 1.5rem;
+}
+/* styles.css  Contact Form CSS */
+
+.contact-form-container {
+  margin-left: 5rem;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 400px;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form h2 {
+  margin-top: 0;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* contact form css end */
+
+
+
+/* End */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

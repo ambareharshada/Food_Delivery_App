@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Pizza",
+      "price": 10,
+      "description": "A delicious pizza made with fresh ingredients."
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "price": 12,
+      "description": "A juicy burger made with fresh beef."
+    },
+    {
+      "id": 3,
+      "name": "Salad",
+      "price": 8,
+      "description": "A healthy salad made with fresh vegetables."
+    },
+    {
+      "id": 4,
+      "name": "Sandwich",
+      "price": 10,
+      "description": "A healthy Sandwich made with fresh vegetables."
+    }
+  ]  
